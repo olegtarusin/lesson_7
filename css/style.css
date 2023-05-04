@@ -1,0 +1,175 @@
+[class*="__container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+/*ШРИФТЫ*/
+h1,
+h2,
+a {
+   font-family: Lato, sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 46px;
+   line-height: 60px;
+}
+
+
+.bold {
+   font-family: Lato, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+p,
+li {
+   font-family: Lato, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 26px;
+}
+
+/*ШАПКА*/
+header {
+   min-width: 300px;
+   background: linear-gradient(30deg, rgba(27, 119, 38, 0.4), rgba(59, 56, 147, 0.3));
+}
+
+.header__content>h1 {
+   margin-bottom: 50px;
+}
+
+.header__container {
+   padding: 4% 4%;
+}
+
+.hrefline a {
+   display: inline-block;
+}
+
+.first__href {
+   margin-right: 50px;
+}
+
+a:hover {
+   color: orangered;
+}
+
+/*статья*/
+.singlepost {
+   max-width: 810px;
+   margin: 0 auto;
+   background-color: #fff;
+   padding: 12px 0px 60px 0px;
+}
+
+.singlepost>img {
+   width: 100%;
+   border-radius: 4px;
+   margin-bottom: 60px;
+}
+
+.posthead {
+   margin-bottom: 92px;
+}
+
+.firstbold {
+   margin-bottom: 24px;
+}
+
+.twicetext {
+   margin-bottom: 48px;
+}
+
+.citata {
+   margin: 0px 0px 48px 58px;
+}
+
+.midletext {
+   margin-bottom: 24px;
+}
+
+.marklist li {
+   margin-bottom: 4px;
+   margin-left: 32px;
+}
+
+li.lastli {
+   margin-bottom: 0px;
+}
+
+.marklist {
+   max-width: 600px;
+   margin-bottom: 24px;
+}
+
+/*БЕКГРАУНД ПРАКТИКА*/
+.practic {
+   background: linear-gradient(30deg, rgba(27, 119, 38, 0.4), rgba(59, 56, 147, 0.3));
+   min-width: 300px;
+}
+
+.bg__list {
+   font-size: 0px;
+}
+
+.bg__list>div {
+   margin: 25px;
+   display: inline-block;
+   max-width: 550px;
+   height: 400px;
+   font-size: 0px;
+   overflow: auto;
+   background-color: rgba(59, 56, 147, 0.3);
+}
+
+.bg__list p {
+   color: beige;
+   font-size: 30px;
+   text-shadow: 2px 0px 5px yellow;
+   letter-spacing: 5px;
+}
+
+.bg__list h2 {
+   color: orange;
+   font-size: 40px;
+   text-align: center;
+}
+
+.usual {
+   background-image: url('../img/flawer.jpg');
+}
+
+.repeat {
+   background: url('../img/flawer.jpg') repeat-x, url('../img/waterfall.jpg') repeat-y, rgba(59, 56, 147, 0.3);
+}
+
+.position {
+   background-repeat: no-repeat;
+   background: url('../img/waterfall.jpg') 50% 50% no-repeat, url('../img/waterfall.jpg') 0 0 no-repeat, url('../img/waterfall.jpg') right top no-repeat, url('../img/waterfall.jpg') 0 bottom no-repeat, url('../img/waterfall.jpg') right bottom no-repeat;
+}
+
+.scroll {
+   background-image: url('../img/view.jpg');
+   background-attachment: scroll;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.fixed {
+   background-image: url('../img/view.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.good__idea {
+   background: url('../img/winterlake.jpg') center / cover no-repeat;
+}
+
+.size {
+   background: url('../img/flawer.jpg') 20px 50px / auto 70% no-repeat;
+}
